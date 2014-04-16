@@ -1,0 +1,4 @@
+{
+	"err-api-not":{"msg":"API called not found"},
+	"err-api-methode-not":{"msg":"API methode not found"}
+}

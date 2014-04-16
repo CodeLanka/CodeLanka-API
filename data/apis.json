@@ -1,0 +1,8 @@
+{
+	"train":[
+		{"getplace":{
+				"required":true,
+				"fields":"from,to"
+			}}
+	]
+}
