@@ -8,10 +8,15 @@
 
 	$setting = new Settings();
 
-	// In coming request
-	$_REQUEST['api']  = "train";
-	$_REQUEST['method'] = "getplace";
-	$_REQUEST['type'] = "json";
+	// In coming request - [Test Only]
+	if (!isset($_REQUEST['api'])) 
+		$_REQUEST['api']  = "train";
+	if (!isset($_REQUEST['method'])) 
+		$_REQUEST['method'] = "getplace";
+	if (!isset($_REQUEST['type'])) 
+		$_REQUEST['type'] = "json";
+
+
 
 	// Sterilization
 	$api 	= strtolower(trim($_REQUEST['api']));
